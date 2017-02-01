@@ -1,5 +1,9 @@
-hr {
-	height: 100px;
+hr.hrLine {
+	border: 0;
+	clear:both;
+	display:block;				
+	background-color: gray;
+	height: 2px;
 }
 .container {
 	font-family: 'Lato', sans-serif;
@@ -19,7 +23,7 @@ hr {
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: #7d97ad;
 }
 
 .text-thin {
