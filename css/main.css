@@ -38,6 +38,34 @@ hr.hrLine {
     margin-top: 20px;
 }
 
+.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 991px) {
+	.mobile {
+		display: block;
+	}
+	
+	.desktop {
+		display: none;
+	}
+	
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+	
+	p {
+		padding-bottom: 15px;
+	}
+}
+
 @media screen and (max-width: 768px) {
     .logo {
         display: none;
