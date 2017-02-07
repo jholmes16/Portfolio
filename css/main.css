@@ -1,7 +1,7 @@
 hr.hrLine {
 	border: 0;
 	clear:both;
-	display:block;				
+	display:block;
 	background-color: gray;
 	height: 2px;
 }
@@ -10,7 +10,7 @@ hr.hrLine {
 	color: #2d3c49;
     font-weight: 300;
 }
-.text-right {
+.name {
     text-align: right;
 }
 
@@ -36,4 +36,14 @@ hr.hrLine {
 
 .title-logo {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .name {
+        text-align: center;
+    }
 }
