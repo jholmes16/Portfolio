@@ -51,6 +51,14 @@ hr.hrLine {
 		display: none;
 	}
 	
+	.logo {
+        display: none;
+    }
+
+    .name {
+        text-align: center;
+    }
+	
 	img {
 		display: block;
 		margin-left: auto;
@@ -59,19 +67,12 @@ hr.hrLine {
 	
 	h2 {
 		text-align: center;
+		padding-top: 25px;
 	}
 	
 	p {
-		padding-bottom: 15px;
+		padding-bottom: 35px;
+		font-size: 1.5em;
 	}
-}
-
-@media screen and (max-width: 768px) {
-    .logo {
-        display: none;
-    }
-
-    .name {
-        text-align: center;
-    }
+	
 }
